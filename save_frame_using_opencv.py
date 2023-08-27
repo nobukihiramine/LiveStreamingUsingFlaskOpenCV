@@ -9,7 +9,7 @@ if( not cap.isOpened() ):
 
 # フレームの取得
 ret, frame = cap.read()
-if( not ret ):
+if( ret is False ):
     print('Failed to read frame.')
 elif( frame is None ):
     print('Frame is None.')
