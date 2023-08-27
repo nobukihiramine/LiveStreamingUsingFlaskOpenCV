@@ -7,6 +7,7 @@ Flask, OpenCVを使用したライブストリーミング
 * [3. OpenCVを使用したカメラ画像取得の動作確認](#3-OpenCVを使用したカメラ画像取得の動作確認)
 * [4. Flaskの動作確認](#4-Flaskの動作確認)
 * [5. ライブストリーミング](#5-ライブストリーミング)
+* [License (ライセンス)](#license-ライセンス)
 
 # 1. 概要
 
@@ -75,7 +76,9 @@ Flask, OpenCVを使用したライブストリーミング
 
 2. 実行結果の確認  
    ウェブブラウザで、以下のURLにアクセスします。  
-   http://[ウェブサーバーのIPアドレスもしくはコンピュータ名]:8000  
+   ```shell
+   http://[ウェブサーバーのIPアドレスもしくはコンピュータ名]:8000
+   ```
    問題がなければ、ウェブブラウザに、「Hello Flask!」と表示されます。
 
 3. ウェブサーバープログラムの終了  
@@ -90,8 +93,19 @@ Flask, OpenCVを使用したライブストリーミング
 
 2. 実行結果の確認  
    ウェブブラウザで、以下のURLにアクセスします。  
-   http://[ウェブサーバーのIPアドレスもしくはコンピュータ名]:8000  
+   ```shell
+   http://[ウェブサーバーのIPアドレスもしくはコンピュータ名]:8000
+   ```
    問題がなければ、ウェブブラウザに、Webカメラからの映像が表示されます。
 
 3. ウェブサーバープログラムの終了  
    動作を確認したら、「Ctrl + c」を押下し、起動したウェブサーバープログラムを終了します。
+
+# License (ライセンス)
+Copyright 2023 Nobuki HIRAMINE  
+The source is licensed under the Apache License, Version 2.0.  
+"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.  
+See the [LICENSE](LICENSE) file for more details.   
+(ソースのライセンスは、「Apache License, Version 2.0」です。  
+「ソース」という用語は、変更を加えるのに都合の良い形式を指し、「ソース」にはソフトウェアのソースコード、ドキュメントのソース、設定ファイルなどが含まれますが、これに限定されるものではありません。  
+詳細は「[LICENSE](LICENSE)」ファイルを参照ください。)
