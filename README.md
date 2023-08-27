@@ -15,7 +15,8 @@ Flask, OpenCVを使用したライブストリーミング
    * ウェブブラウザで簡単にWebカメラからの映像を表示できること
    * Webカメラの映像はOpenCVを使用して取得すること
 
-* 動作確認環境
+* 動作確認環境  
+   - Raspberry Pi 3 Model B
    - Raspberry Pi OS version 11 (bullseye)
    - flask version 2.3.3
    - opencv-python version 4.8.0.76
