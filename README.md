@@ -17,6 +17,7 @@ Flask, OpenCVを使用したライブストリーミング
 
 * 動作確認環境  
    - Raspberry Pi 3 Model B
+   - Logicool Webカメラ C270
    - Raspberry Pi OS version 11 (bullseye)
    - flask version 2.3.3
    - opencv-python version 4.8.0.76
