@@ -1,3 +1,11 @@
+# __init__.py
+#
+# Function to crate flask app.
+#
+# Author : Nobuki HIRAMINE, http://www.hiramine.com
+# History :
+#   2023/08/06 Created.
+
 # Copyright 2023 Nobuki HIRAMINE
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,14 +19,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# __init__.py
-#
-# Function to crate flask app.
-#
-# Author : Nobuki HIRAMINE, http://www.hiramine.com
-# History :
-#   2023/08/06 Created.
 
 import flask
 from flask_app.camera import Camera
